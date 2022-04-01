@@ -1,0 +1,106 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: Lucida Console, sans-serif; 
+  line-height: 1.5;
+  background-color: BlanchedAlmond;
+  color: black;
+}
+
+h1 {
+  font-family: 	Courier New, sans-serif; 
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+#button2 {
+    background: lightblue;
+}
+#button3 {
+    background: pink;
+}
+#button4 {
+    background: lightyellow;
+}
+#button5 {
+    background: LightSalmon;
+}
+#button6 {
+    background: plum;
+}
+#button1:active, #button1.lit {
+    background-image:url("https://img.icons8.com/stickers/100/000000/mac-os.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: green;
+}
+#button2:active, #button2.lit  {
+    background-image:url("https://img.icons8.com/stickers/100/000000/windows-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: blue;
+}
+#button3:active, #button3.lit  {
+    background-image:url("https://img.icons8.com/stickers/100/000000/google-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: red;
+}
+#button4:active, #button4.lit  {
+    background-image:url("https://img.icons8.com/stickers/100/000000/facebook-new--v2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: yellow;
+}
+#button5:active, #button5.lit  {
+    background-image:url("https://img.icons8.com/stickers/100/000000/tiktok.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: salmon;
+}
+#button6:active, #button6.lit  {
+    background-image:url("https://img.icons8.com/stickers/100/000000/twitch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: RebeccaPurple;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
